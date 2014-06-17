@@ -12,11 +12,11 @@
         <th>Apellido</th>
         <th>Acciones</th>
       </tr>
-      <tr>
-        <td></td>
-        <td></td>
+      <tr ng-repeat="contact in contacts">
+        <td>{{contact.name}}</td>
+        <td>{{contact.lastname}}</td>
         <td>
-          <a href="" class="btn btn-primary">Ver</a>
+          <a href="/contact/{{contact.id}}" class="btn btn-primary">Ver</a>
         </td>
       </tr>
     </table>

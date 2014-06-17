@@ -5,17 +5,22 @@
 
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body>
+<body ng-app="ContactsApp">
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header"><a href="/" class="navbar-brand">Contactos</a></div>
     </div>
   </nav>
 
-  <div class="container"></div>
+  <div class="container" ng-view=""></div>
 
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
   <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/services/contacts.js"></script>
+  <script type="text/javascript" src="js/controllers/contacts.js"></script>
+  <script type="text/javascript" src="js/controllers/show.js"></script>
 </body>
 </html>
