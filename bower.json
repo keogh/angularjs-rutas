@@ -1,0 +1,13 @@
+{
+  "name": "angularjs-rutas",
+  "version": "0.0.0",
+  "homepage": "https://github.com/keogh/angularjs-rutas",
+  "authors": [
+    "Isaac Zepeda <keogh24@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular-route": "~1.2.18",
+    "bootstrap": "~3.1.1"
+  }
+}
